@@ -81,6 +81,10 @@
             margin-bottom: 15px;
             position: relative;
             z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
         }
 
         header h1 span {
@@ -259,14 +263,17 @@
 
     <div class="container">
         <header>
-            <h1>مرحبًا بفريق <span>ChicAnime</span></h1>
-            <p>نحن هنا لبناء مجتمع متكامل حول عالم الأنمي. إذا كنت ترغب في المساهمة، يرجى تعبئة الاستمارة التالية بعناية.</p>
+            <h1 style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+                <span>مرحبًا بفريق <span>ChicAnime</span></span>
+                <a href="https://chicanime.netlify.app/" target="_blank" class="form-link" style="font-size:1em; padding:8px 20px;">زيارة الموقع</a>
+            </h1>
+            <p>نحن هنا لبناء مجتمع متكامل حول عالم الأنمي. إذا كنت ترغب في المساهمة، يرجى تعبئة الاستمارة التالية بع�[...]</p>
         </header>
 
         <section class="form-section">
             <h2>استمارة فريق ChicAnime – تنظيم المهام والمحتوى</h2>
             <p>الرجاء تعبئة الاستمارة لتحديد المهارات والأدوار التي يمكنك تقديمها في مشروعنا الخاص بعالم الأنمي.</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUFBSphT-mm-cII0j7keKy8Ga48bhS8CkA3h5IRT01Yaahbg/viewform?usp=header" target="_blank" class="form-link">انقر هنا لملء النموذج</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUFBSphT-mm-cII0j7keKy8Ga48bhS8CkA3h5IRT01Yaahbg/viewform?usp=header" target="_blank" class="form-link">انقر هنا لملء النم[...]</a>
         </section>
 
         <div class="features">
@@ -303,6 +310,7 @@
 
         <footer>
             <p>تم تصميم هذا النموذج لجمع معلومات حول المهارات المتاحة في فريقنا وتنظيم المهام. نحن نقدر تعاونك!</p>
+            <a href="https://chicanime.netlify.app/" target="_blank" class="form-link" style="margin-top:10px;">زيارة موقع ChicAnime</a>
         </footer>
     </div>
 
